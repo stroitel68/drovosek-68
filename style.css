@@ -1,0 +1,652 @@
+*,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 105px;
+    background: #EFFFC1;
+}
+
+._container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+}
+
+.header_item {
+    margin: 20px 21px 0 0;
+}
+
+.header_item a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+.header_item a:hover {
+    color: #489B01;
+}
+
+.top {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    max-height: 695px;
+    margin-bottom: 246px
+
+}
+
+.top_content {
+    overflow: hidden;
+}
+
+.top_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FEFEFE;
+    max-width: 766px;
+    margin: 80px 0 35px 0;
+}
+
+.top_header_dop {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FEFEFE;
+}
+
+.top_button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-bottom: 93px;
+}
+
+.top_button_left {
+    width: 200px;
+    height: 50px;
+    border: 3px solid #FEFEFE;
+    border-radius: 37px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.top_button_left a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.top_button_right {
+    width: 200px;
+    height: 50px;
+    border: 3px solid #FEFEFE;
+    border-radius: 37px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+}
+
+.top_button_right a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.top_button_left:hover {
+    background-color: #489B01;
+}
+
+.top_button_right:hover {
+    background-color: #489B01;
+}
+
+.top_button_left a:hover {
+    color: #EFFFC1;
+}
+
+.top_button_right:hover {
+    color: #EFFFC1;
+} 
+
+.top_button_right a:hover {
+    color: #EFFFC1;
+}
+
+.top_colums {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.top_colums :hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.top_col {
+    width: 249px;
+    height: 252px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.img_top_col {
+    width: 72px;
+    height: 72px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.header_top_col {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: auto;
+}
+
+.text_top_col {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+    width: 249px;
+    height: 252px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.services_head {
+    display: flex;
+    flex-direction: column;
+}
+
+.services_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.services_header_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 412px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.services_colums_top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 65px;
+}
+
+.services_colums_bottom {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 127px;
+}
+
+.services_colums_top :hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+.services_colums_bottom :hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+.services_col {
+    width: 240px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.services_col :hover{
+    transform: none;
+    transition: none;
+}
+
+.services_col_images {
+    border-radius: 5px;
+}
+
+.services_list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.services_list li {
+    list-style: square;
+}
+
+.services_col_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: auto;
+    text-align: center;
+}
+
+.services_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+    padding: 10px;
+}
+
+.advantage {
+    background-color: #EFFFC1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 100px;
+    width: 795px;
+}
+
+.advantage_top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.autotower {
+    margin-right: 60px;
+}
+
+.advantage_description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.saw {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 230px;
+}
+
+.saw_list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 100px;
+}
+
+.saw_item {
+    list-style: square;
+    margin-top: 33px;
+}
+
+.contacts {
+    background-color: #F3F3F3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.contacts_cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 203px;   
+}
+
+.contacts_card {
+    background: #FFFFFF;
+    align-items: center;
+    width: 328px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.contacts_img {
+    margin-top: 50px;
+}
+
+.contacts_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+._button {
+    border: 1px solid #737373;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+._button a {
+    color: #737373;
+}
+
+a:hover {
+    color: #489B01; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    background-color: #EFFFC1;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.footer_image {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.footer_info p{
+    margin: 0px;
+}
+
+@media (max-width: 667px) {
+    ._container {
+        max-width: 667px;
+    }
+
+    .header_menu {
+        margin-left: 0px;
+    }
+
+    .header_logo {
+        height: 50px;
+        margin: auto;
+    }
+
+    .header_item {
+        margin: 20px 15px 0 0;
+    }
+
+    .header_item a {
+        font-size: 15px;
+    }
+
+    .top_header {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .top_button_right {
+        width: 170px;
+        height: 50px;
+    }
+
+    .top_button_left {
+        width: 170px;
+        height: 50px;
+    }
+
+    .top_button_left a:hover {
+        color: #EFFFC1;
+    }
+
+    .top_button_right a:hover {
+        color: #EFFFC1;
+    }
+
+    .top {
+        background-image: url(images/background_mobile.png);
+        max-height: none;
+        background-position: unset;
+        background-size: unset;
+        margin-bottom: 100px;
+    }
+    
+    .top_colums {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_col {
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+
+    .services_colums_top {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .services_col {
+        margin-bottom: 15px;
+    }
+
+    .services_colums_bottom {
+        flex-direction: column;
+    }
+
+    .advantage_header {
+        font-size: 30px;
+        line-height: 35px;
+        width: auto;
+    }
+
+    .advantage_top {
+        flex-direction: column;
+    }
+
+    .autotower {
+        margin: 0px;
+    }
+
+    .autotower_image {
+        height: 350px;
+    }
+
+    .equipment_image {
+        height: 350px;
+    }
+
+    .advantage_description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .saw {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .saw_image {
+        height: 250px;
+    }
+
+    .saw_list {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        margin-top: 10px;
+    }
+
+    .saw_item {
+        list-style: square;
+        margin-top: 25px;
+    }
+
+    .contacts_header {
+        margin-bottom: 130px;
+    }
+
+    .contacts_cards {
+        flex-direction: column;
+    }
+
+    .contacts_card {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+}
